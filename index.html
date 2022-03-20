@@ -1,25 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Rohit's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Balachandar Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-    <header>
-        <h1>Rohit Balachandar</h1>
-        <nav>
-            <ul>
-                <li>Contact</li>
-                <li>About Me</li>
-                <li>Projects</li>
-            </ul>
-        </nav>
-    </header>
-    
 
+<body>
+  <div class="hero">
+    <header class="header"> 
+      <h1 class="name">Rohit Balachandar</h1>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+          <li>
+            <a href="#">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+  </div>
+
+  
+  <div class="main-content">
+    
+    <section class="about-me" id="about-me">
+      <h2>About Me</h2>
+      <img src="./assets/lifting.jpg" alt="Picture of me at my competititon">
+      <p>
+        Hi, I am Rohit Balachandar. I was born in Cedar Rapids, Iowa, and I grew up in San Antonio. I am doing this bootcamp at SMU in order to have a career in web development. I have some prior knowledge of HTML and CSS and a little Python.
+      </p>
+      <p>
+        My hobbies include compteting in powerlifting and working on my project car, a 1990 Mazda Miata. I recently did my first real competition in powerlifting in January.  </p>
+
+    </section>
+
+    <section class="work" id="work">
+      <h2>Work</h2>
+
+      <div class="projects">
+        
+        <div class="example-sites">
+          <a href="https://www.google.com" target="blank">
+            <img src="./assets/images/placeholder.png" class="site-pics">          
+            <h3>
+              Project #1
+            </h3>
+          </a>
+        </div>
+        <div class="example-sites">
+          <a href="https://www.google.com" target="blank">
+            <img src="./assets/images/placeholder.png" class="site-pics">          
+            <h3>
+              Project #2
+            </h3>
+          </a>
+        </div>
+        <div class="example-sites">
+          <a href="https://www.google.com" target="blank">
+            <img src="./assets/images/placeholder.png" class="site-pics">          
+            <h3>
+              Project #3
+            </h3>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<!-- Contact Me -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><a href = "mailto: robala998@gmail.com" target="blank">robala998@gmail.com</a></li>
+      <li><a></a>123.456.7890</li>
+      <li><a href= "https://github.com/Robala98" target="_blank">GitHub</a></li>
+    </ul>
+  </section>
 
 </body>
+
 </html>
